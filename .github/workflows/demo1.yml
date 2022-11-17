@@ -3,10 +3,10 @@ on:
   pull_request:
     types:  
       - opened
-       branches:
-        - master # master
-        - 'feat/**' # feat/new feat/new/button
-        - 'dev-*'  # dev-new dev-this-s-new
+    branches:
+      - master # master
+      - 'feat/**' # feat/new feat/new/button
+      - 'dev-*'  # dev-new dev-this-s-new
   workflow_dispatch:
   push:
     branches:
